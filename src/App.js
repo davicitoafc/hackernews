@@ -29,6 +29,8 @@ class App extends Component {
       list,
     };
 
+    this.onDismiss = this.onDismiss.bind(this);
+
   }
 
   render() {
