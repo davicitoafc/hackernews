@@ -42,6 +42,8 @@ class App extends Component {
      return (
      <div className="App">
        {this.state.list.map(item =>
+
+
             <div key={item.objectID}>
               <span>
                <a href={item.url}>{item.title}</a>
@@ -58,6 +60,7 @@ class App extends Component {
               </button>
               </span>
              </div>
+
           )}
       </div>
   )
